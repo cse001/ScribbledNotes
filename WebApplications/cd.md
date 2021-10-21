@@ -1,4 +1,6 @@
-# Manual
+# Content Discovery
+
+## Manual
 
 The following are the manual methods to get more information on a webpage.
 
