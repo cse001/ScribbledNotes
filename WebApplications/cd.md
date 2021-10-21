@@ -61,3 +61,9 @@ Gobuster
 gobuster dir --url http://MACHINE_IP/ -w /usr/share/wordlists/SecLists/Discovery/Web-Content/common.txt
 ```
 
+# Sub-Domain Enumeration
+
+- Brute Force, 
+- OSINT (Open-Source Intelligence) and 
+- Virtual Host.
+
