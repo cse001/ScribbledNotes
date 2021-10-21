@@ -1,5 +1,3 @@
-# Content Discovery on Webapps
-
 # Manual
 
 The following are the manual methods to get more information on a webpage.
