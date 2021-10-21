@@ -67,3 +67,16 @@ gobuster dir --url http://MACHINE_IP/ -w /usr/share/wordlists/SecLists/Discovery
 - OSINT (Open-Source Intelligence) and 
 - Virtual Host.
 
+## OSINT
+
+### Subdomain from SSL Certificates
+
+ https://crt.sh and https://transparencyreport.google.com/https/certificates - From ssl certificates
+
+### Subdomain from Google
+
+```
+-site:www.tryhackme.com  
+site:*.tryhackme.com
+```
+
