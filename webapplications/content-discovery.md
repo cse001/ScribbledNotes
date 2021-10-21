@@ -122,3 +122,8 @@ With PHP, using functions such as
 - include_once, 
 - and require_once 
 
+Using null bytes is an injection technique where URL-encoded representation such as %00 or 0x00 in hex with user-supplied data to terminate strings. You could think of it as trying to trick the web app into disregarding whatever comes after the Null Byte.
+
+### RFI
+
+One requirement for RFI is that the allow_url_fopen option needs to be on
