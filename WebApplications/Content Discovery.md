@@ -1,5 +1,3 @@
-# Content Discovery
-
 # Manual
 
 The following are the manual methods to get more information on a webpage.
@@ -10,9 +8,7 @@ The following are the manual methods to get more information on a webpage.
 
 Using this we can try to find out what framework is being used.
 
-OWASP Favicon database
-
-https://wiki.owasp.org/index.php/OWASP_favicon_database
+OWASP Favicon database - https://wiki.owasp.org/index.php/OWASP_favicon_database
 
 ## Paths
 
