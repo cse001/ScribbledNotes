@@ -1,3 +1,5 @@
+# Content Discovery
+
 # Manual
 
 The following are the manual methods to get more information on a webpage.
@@ -23,8 +25,6 @@ We know what this is
 ### Sitemap.xml
 
 Maps all the link on the site that might be difficult to find.
-
-
 
 ## HTTP Headers
 
