@@ -30,5 +30,13 @@ Maps all the link on the site that might be difficult to find.
 curl http://MACHINE_IP -v
 ```
 
+## OSINT
 
+- Google dorks
+  - Basic google hacking, things like -
+    - ![image-20211022021810062](image-20211022021810062.png)
+- Wappalyzer
+- Github
+- Wayback Machine
+- S3 Buckets
 
