@@ -39,4 +39,25 @@ curl http://MACHINE_IP -v
 - Github
 - Wayback Machine
 - S3 Buckets
+  - S3 Buckets are a storage service provided by Amazon AWS, allowing people to save files and even static website content in the cloud accessible over HTTP and HTTPS. The owner of the files can set access permissions to either make files public, private and even writable. Sometimes these access permissions are incorrectly set and inadvertently allow access to files that shouldn't be available to the public. The format of the S3 buckets is http(s)://{name}.s3.amazonaws.com where {name} is decided by the owner, such as tryhackme-assets.s3.amazonaws.com. S3 buckets can be discovered in many ways, such as finding the URLs in the website's page source, GitHub repositories, or even automating the process. One common automation method is by using the company name followed by common terms such as {name}-assets, {name}-www, {name}-public, {name}-private, etc. -- Source : https://tryhackme.com/room/contentdiscovery
+
+# Automated
+
+Ffuf
+
+```bash
+ffuf -w /usr/share/wordlists/SecLists/Discovery/Web-Content/common.txt -u http://10.10.169.86/FUZZ
+```
+
+Dirb
+
+```bash
+dirb http://10.10.169.86/ /usr/share/wordlists/SecLists/Discovery/Web-Content/common.txt
+```
+
+Gobuster
+
+```bash
+gobuster dir --url http://MACHINE_IP/ -w /usr/share/wordlists/SecLists/Discovery/Web-Content/common.txt
+```
 
