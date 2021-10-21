@@ -1,6 +1,4 @@
-# Content Discovery
-
-## Manual
+# Manual
 
 The following are the manual methods to get more information on a webpage.
 
@@ -67,11 +65,22 @@ gobuster dir --url http://MACHINE_IP/ -w /usr/share/wordlists/SecLists/Discovery
 - OSINT (Open-Source Intelligence) and 
 - Virtual Host.
 
+## DNS Brute Force
+
+Tools : 
+
+- dnsrecon
+
+```shell
+dnsrecon -t brt -d acmeitsupport.thm
+```
+
 ## OSINT
 
 ### Subdomain from SSL Certificates
 
- https://crt.sh and https://transparencyreport.google.com/https/certificates - From ssl certificates
+- https://crt.sh and 
+- https://transparencyreport.google.com/https/certificates
 
 ### Subdomain from Google
 
@@ -79,4 +88,12 @@ gobuster dir --url http://MACHINE_IP/ -w /usr/share/wordlists/SecLists/Discovery
 -site:www.tryhackme.com  
 site:*.tryhackme.com
 ```
+
+### Sublist3r
+
+```shell
+./sublist3r.py -d acmeitsupport.thm
+```
+
+## Virtual Hosts
 
