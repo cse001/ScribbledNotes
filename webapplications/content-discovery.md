@@ -108,3 +108,17 @@ ffuf -w /usr/share/wordlists/SecLists/Discovery/DNS/namelist.txt -H "Host: FUZZ.
 ```
 ffuf -w /usr/share/wordlists/SecLists/Discovery/DNS/namelist.txt -H "Host: FUZZ.acmeitsupport.thm" -u http://MACHINE_IP -fs {size}
 ```
+
+## File Inclusion, LFI ,  RFI
+
+![image-20211022041223992](image-20211022041223992.png)
+
+### LFI
+
+With PHP, using functions such as 
+
+- include, 
+- require, 
+- include_once, 
+- and require_once 
+
