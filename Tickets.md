@@ -17,6 +17,14 @@
 
 8 Labs done. Total Should be 16.
 
+## LFI 
+
+10 % Swag discout
+
+1 Day streak freeze
+
+
+
 
 
 
