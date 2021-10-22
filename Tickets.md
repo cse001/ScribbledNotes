@@ -65,3 +65,8 @@ Total 24
 - Pentester Title
 - 7 Day Streak freeze
 
+## Burp 1
+
+- Pentester Title
+- 1 Month Voucher
+
