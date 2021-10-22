@@ -70,3 +70,12 @@ Total 24
 - Pentester Title
 - 1 Month Voucher
 
+## Burp 2
+
+- Pentester Title
+- 1 Day Streak Freeze
+
+Rank - 12495
+
+## Burp 3
+
