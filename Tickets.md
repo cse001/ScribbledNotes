@@ -79,3 +79,6 @@ Rank - 12495
 
 ## Burp 3
 
+- 7 Day Streak Freeze
+- 1 Day Streak Freeze
+
