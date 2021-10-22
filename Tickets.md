@@ -28,6 +28,11 @@
 - Pentester Title
 - 1 Day Streak Freeze
 
+## XSS
+
+- EJPT Voucher
+- Pentester Title
+
 
 
 
