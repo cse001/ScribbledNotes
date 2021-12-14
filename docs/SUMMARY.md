@@ -3,4 +3,4 @@
 * [Page 1](README.md)
 
 ## Web Applications
-* [IDOR](WebApplications/IDOR)
+* [IDOR](WebApplications/IDOR.md)
