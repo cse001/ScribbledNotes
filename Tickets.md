@@ -87,3 +87,4 @@ Rank - 12495
 - 3 $ Voucher
 - 1 Day Streak Freeze
 
+This really sucks.
