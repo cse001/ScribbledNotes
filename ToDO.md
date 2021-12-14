@@ -1,2 +1,0 @@
-- [ ] https://tryhackme.com/module/linux-fundamentals
-- [ ] I want to test this too
