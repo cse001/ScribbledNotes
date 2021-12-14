@@ -1,0 +1,16 @@
+# Table of contents
+
+* [Untitled](README.md)
+* [WebApplications](webapplications/README.md)
+  * [Authentication Bypass](webapplications/authentication-bypass.md)
+* [WebApplications](webapplications-1/README.md)
+  * [List](webapplications-1/commandinjection.md)
+* [WebApplications](webapplications-2/README.md)
+  * [IDOR](webapplications-2/idor.md)
+* [WebApplications](webapplications-3.md)
+* [WebApplications](webapplications-4/README.md)
+  * [SQL Injection](webapplications-4/sql-injection.md)
+* [WebApplications](webapplications-5/README.md)
+  * [SSRF](webapplications-5/ssrf.md)
+* [WebApplications](webapplications-6/README.md)
+  * [Content Discovery](webapplications-6/content-discovery.md)
