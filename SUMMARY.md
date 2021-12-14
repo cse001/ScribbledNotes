@@ -2,7 +2,7 @@
 
 * [Page 1](README.md)
 
-## Web Applications
+## Web-Applications
 
 * [IDOR](web-applications/idor/README.md)
   * [Sub Page for IDOR](web-applications/idor/sub-page-for-idor/README.md)
